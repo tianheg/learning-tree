@@ -3,7 +3,6 @@ lockfileVersion: 5.4
 specifiers:
   '@mdx-js/loader': ^2.2.1
   '@mdx-js/react': ^2.2.1
-  '@next/font': 13.1.6
   '@next/mdx': ^13.1.6
   eslint: 8.33.0
   eslint-config-next: 13.1.6
@@ -14,7 +13,6 @@ specifiers:
 dependencies:
   '@mdx-js/loader': 2.2.1
   '@mdx-js/react': 2.2.1_react@18.2.0
-  '@next/font': 13.1.6
   '@next/mdx': 13.1.6_vvg67iglxhejglpl7nsv3pjzui
   eslint: 8.33.0
   eslint-config-next: 13.1.6_eslint@8.33.0
@@ -121,10 +119,6 @@ packages:
     resolution: {integrity: sha512-o7cauUYsXjzSJkay8wKjpKJf2uLzlggCsGUkPu3lP09Pv97jYlekTC20KJrjQKmSv5DXV0R/uks2ZXhqjNkqAw==}
     dependencies:
       glob: 7.1.7
-    dev: false
-
-  /@next/font/13.1.6:
-    resolution: {integrity: sha512-AITjmeb1RgX1HKMCiA39ztx2mxeAyxl4ljv2UoSBUGAbFFMg8MO7YAvjHCgFhD39hL7YTbFjol04e/BPBH5RzQ==}
     dev: false
 
   /@next/mdx/13.1.6_vvg67iglxhejglpl7nsv3pjzui:
