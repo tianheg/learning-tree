@@ -1,4 +1,0 @@
-#+layout: nil
-#+words: here are some words from metadata of imported org file
-
------
