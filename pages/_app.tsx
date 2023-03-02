@@ -2,7 +2,7 @@ import { OrgaProvider } from '@orgajs/react'
 import Image from 'next/image'
 import Link from 'next/link'
 import { AppProps } from 'next/app'
-import '../styles/globals.css'
+import '../styles/globals.scss'
 
 const components = {
   a: Link,
