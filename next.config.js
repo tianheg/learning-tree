@@ -1,4 +1,3 @@
-/** @type {import('next').NextConfig} */
 const codeHighlight = require('@orgajs/reorg-shiki').default
 const path = require('path')
 const withOrga = require('@orgajs/next').default({
@@ -21,8 +20,5 @@ const withOrga = require('@orgajs/next').default({
 })
 
 module.exports = withOrga({
-  pageExtensions: ['js', 'jsx', 'tsx', 'org'],
-  experimental: {
-    appDir: true,
-  },
+  pageExtensions: ['js', 'jsx', 'tsx', 'org']
 })

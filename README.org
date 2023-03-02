@@ -1,0 +1,20 @@
+* Learning TREE
+
+Focus on [[https://developer.mozilla.org/en-US/][MDN Web Docs]].
+
+来自 @BlackGlory 帮助（提取有效信息）：
+
+1. Org-mode --> AST
+2. AST --> Tree style
+
+** Org-mode to AST
+
+** AST to React component
+
+I don't know how to convert Org-mode AST into React component.
+
+参考资料
+
+- https://github.com/orgapp/orgajs/tree/main/examples/next
+- https://orgmode.org/worg/org-syntax.html =internal structure=
+- https://github.com/rasendubi/uniorg/blob/master/examples/next-blog-starter/lib/orgToHtml.js
