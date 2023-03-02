@@ -5,7 +5,7 @@ const Layout: FC<{ children: string, title: string }> = ({ children, title }) =>
   return (
     <div style={{ maxWidth: 700, margin: '0 auto'}}>
       <Head>
-        <title>{ title } | tianheg</title>
+        <title>{ title }</title>
         <link rel="icon" href="favicon.png" media="(prefers-color-scheme: light)" />
         <link rel="icon" href="favicon-dark.png" media="(prefers-color-scheme: dark)" />
       </Head>
