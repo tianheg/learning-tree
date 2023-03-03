@@ -1,6 +1,10 @@
 #+TITLE: MDN Learning Tree
 
+MDN files location: [[https://github.com/mdn/content/blob/main/files/en-us/][GitHub]].
+
 - [[file:js.org][JavaScript]]
 - CSS
 - HTML
-- HTTP
+- [[file:http.org][HTTP]]
+- [[file:web-api.org][Web APIs]]
+- [[file:add-ons.org][Firefox Add-ons]]
