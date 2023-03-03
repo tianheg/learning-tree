@@ -3,7 +3,7 @@ import Head from 'next/head'
 
 const Layout: FC<{ children: string, title: string }> = ({ children, title }) => {
   return (
-    <div style={{ maxWidth: 700, margin: '0 auto'}}>
+    <div id="main" style={{ maxWidth: 700, margin: '0 auto'}}>
       <Head>
         <title>{ title }</title>
         <link rel="icon" href="favicon.png" media="(prefers-color-scheme: light)" />
