@@ -20,5 +20,8 @@ const withOrga = require('@orgajs/next').default({
 })
 
 module.exports = withOrga({
-  pageExtensions: ['js', 'jsx', 'tsx', 'org']
+  pageExtensions: ['js', 'jsx', 'tsx', 'org'],
+  sassOptions: {
+    includePaths: [path.join(__dirname, 'styles')],
+  },
 })
