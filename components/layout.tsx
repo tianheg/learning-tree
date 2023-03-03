@@ -1,17 +1,20 @@
 import { FC } from 'react'
 import Head from 'next/head'
 
-const Layout: FC<{ children: string, title: string }> = ({ children, title }) => {
+const Layout: FC<{ children: string; title: string }> = ({
+  children,
+  title,
+}) => {
   return (
-    <div id="main" style={{ maxWidth: 700, margin: '0 auto'}}>
+    <div id="main" style={{ maxWidth: 700, margin: '0 auto' }}>
       <Head>
-        <title>{ title }</title>
-        <link rel="icon" href="favicon.png" media="(prefers-color-scheme: light)" />
-        <link rel="icon" href="favicon-dark.png" media="(prefers-color-scheme: dark)" />
+        <title>{title}</title>
+        <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+        <link rel="icon" href="/favicon.png" type="image/png" />
       </Head>
-      <h1>{ title }</h1>
+      <h1>{title}</h1>
       <hr />
-      { children }
+      {children}
     </div>
   )
 }
