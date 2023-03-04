@@ -34,12 +34,13 @@
   --card-border-rgb: 131, 134, 135;
 }
 
-#main>ul {
+#main > ul,
+.section > ul {
   list-style: none;
   margin: 0;
   padding: 0;
 
-  li {
+  & > li {
     padding-block: 5px;
   }
 
