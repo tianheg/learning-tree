@@ -34,13 +34,13 @@
   --card-border-rgb: 131, 134, 135;
 }
 
-#main > ul,
-.section > ul {
+#main>ul,
+.section>ul {
   list-style: none;
   margin: 0;
   padding: 0;
 
-  & > li {
+  &>li {
     padding-block: 5px;
   }
 
@@ -49,7 +49,7 @@
   }
 }
 
-a {
+a:not([href="/"]) {
   color: hsl(240, 4%, 20%);
   text-decoration: underline dashed;
   text-underline-offset: 0.4rem;
@@ -57,6 +57,11 @@ a {
   &:hover {
     text-decoration: none;
   }
+}
+
+a:is([href="/"]) {
+  color: hsl(240, 4%, 20%);
+  text-decoration: none;
 }
 
 .edit-link {

@@ -1,5 +1,6 @@
 import { FC } from 'react'
 import Head from 'next/head'
+import Link from 'next/link';
 import EditLink from './EditLink';
 
 const Layout: FC<{ children: string; title: string }> = ({
@@ -13,7 +14,7 @@ const Layout: FC<{ children: string; title: string }> = ({
         <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
         <link rel="icon" href="/favicon.png" type="image/png" />
       </Head>
-      <h1>{title}</h1>
+      <Link href={"/"}><h1>{title}</h1></Link>
       <hr />
       <EditLink />
       {children}
