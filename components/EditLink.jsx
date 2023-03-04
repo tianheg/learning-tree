@@ -11,7 +11,6 @@ function useGitEditUrl(filePath = '') {
 
 function GetFilePath() {
   const router = useRouter()
-  console.log(router)
   if (router.pathname === '/') {
     return 'pages' + '/index' + '.org'
   } else {
