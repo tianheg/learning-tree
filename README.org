@@ -2,10 +2,10 @@
 
 Focus on [[https://developer.mozilla.org/en-US/][MDN Web Docs]].
 
-来自 @BlackGlory 帮助（提取有效信息）：
+Help from [[https://github.com/BlackGlory][@BlackGlory]]:
 
 1. Org-mode --> AST
-2. AST --> Tree style
+2. AST --> Tree style(React component)
 
 ** Org-mode to AST
 
