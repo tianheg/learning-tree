@@ -13,7 +13,7 @@ Help from [[https://github.com/BlackGlory][@BlackGlory]]:
 
 I don't know how to convert Org-mode AST into React component.
 
-参考资料
+References
 
 - https://github.com/orgapp/orgajs/tree/main/examples/next
 - https://orgmode.org/worg/org-syntax.html =internal structure=
