@@ -34,8 +34,10 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx",
-    ".next/types/**/*.ts"
-, "app/layout.jsx"  ],
+    ".next/types/**/*.ts",
+    "app/layout.jsx",
+    "components/EditLink.jsx"
+  ],
   "exclude": [
     "node_modules"
   ]

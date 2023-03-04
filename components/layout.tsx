@@ -1,5 +1,6 @@
 import { FC } from 'react'
 import Head from 'next/head'
+import EditLink from './EditLink';
 
 const Layout: FC<{ children: string; title: string }> = ({
   children,
@@ -14,6 +15,7 @@ const Layout: FC<{ children: string; title: string }> = ({
       </Head>
       <h1>{title}</h1>
       <hr />
+      <EditLink />
       {children}
     </div>
   )
