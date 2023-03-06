@@ -17,11 +17,9 @@ const result = await octokit.request(
 
 let data = ''
 for (const sub of result.data) {
-  if (sub.type === 'dir' && sub.name !== 'games')
-    console.log(`    - <${sub.name}>`)
-  data = data.concat(`    - <${sub.name}>\n`)
+  data = data.concat(`*** <${sub.name}>\n`)
 }
 fs.appendFile('./pages/html.org', data, (err) => {
-  return true
+  console.log('DONE!')
 })
-// Donot run this file again!
+// Donot run this file >2 !
