@@ -1,7 +1,9 @@
+/** @type {import('next').NextConfig} */
+
 const codeHighlight = require('@orgajs/reorg-shiki').default
 const path = require('path')
 const withOrga = require('@orgajs/next').default({
-  defaultLayout: require.resolve('./components/layout.tsx'),
+  defaultLayout: require.resolve('./components/Layout.tsx'),
   reorgPlugins: [
     [
       codeHighlight,
