@@ -2,9 +2,9 @@
 
 MDN files location: [[https://github.com/mdn/content/blob/main/files/en-us/][GitHub]].
 
-- [[file:js.org][JavaScript]]
-- [[file:css.org][CSS]]
-- [[file:html.org][HTML]]
-- [[file:http.org][HTTP]]
-- [[file:web-api.org][Web APIs]]
-- [[file:add-ons.org][Firefox Add-ons]]
+- [[file:notes/js.org][JavaScript]]
+- [[file:notes/css.org][CSS]]
+- [[file:notes/html.org][HTML]]
+- [[file:notes/http.org][HTTP]]
+- [[file:notes/web-api.org][Web APIs]]
+- [[file:notes/add-ons.org][Firefox Add-ons]]

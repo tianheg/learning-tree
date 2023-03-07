@@ -1,4 +1,0 @@
-#+TITLE: JavaScript
-
-- [ ] test
-  - [ ] test
