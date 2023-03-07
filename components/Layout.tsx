@@ -1,12 +1,11 @@
-import { FC } from 'react'
 import Head from 'next/head'
-import Link from 'next/link';
-import EditLink from './EditLink';
+import Link from 'next/link'
+import { parse } from 'romast'
 
-const Layout: FC<{ children: string; title: string }> = ({
-  children,
-  title,
-}) => {
+import EditLink from './EditLink'
+import { LayoutProps } from '@/interfaces'
+
+const Layout = ({ children, title }: LayoutProps) => {
   return (
     <div id="main" style={{ maxWidth: 700, margin: '0 auto' }}>
       <Head>
@@ -14,7 +13,9 @@ const Layout: FC<{ children: string; title: string }> = ({
         <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
         <link rel="icon" href="/favicon.png" type="image/png" />
       </Head>
-      <Link href={"/"}><h1>{title}</h1></Link>
+      <Link href={'/'}>
+        <h1>{title}</h1>
+      </Link>
       <hr />
       <EditLink />
       {children}
